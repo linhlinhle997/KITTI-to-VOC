@@ -22,7 +22,10 @@ Flags:
     - `kitti`: KITTI
     - `voc`: Pascal VOC
 
-## Run 
+## Setup and Run 
+### KITTI datasets
+- Create `./KITTI-to-VOC/datasets/KITTI` folder 
+- Place `./training/image_2` and `./training/label_2` into `./KITTI-to-VOC/datasets/KITTI`
 ### Create `train.txt` file for KITTI
 ``` markdown
 $ cd datasets/KITTI && ls -1 training/image_2 | cut -d. -f1 > train.txt
